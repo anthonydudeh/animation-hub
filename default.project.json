@@ -1,0 +1,32 @@
+{
+  "name": "animation-hub",
+  "globIgnorePaths": [
+    "**/package.json",
+    "**/tsconfig.json",
+    "**/.gitignore"
+  ],
+  "tree": {
+    "$className": "DataModel",
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "AnimationHub": {
+        "$path": "src/server"
+      }
+    },
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "AnimationHubRemotes": {
+        "$path": "src/shared/Remotes"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "AnimationHub": {
+          "$path": "src/client"
+        }
+      }
+    }
+  }
+}
