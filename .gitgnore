@@ -1,0 +1,18 @@
+# Roblox Studio
+*.rbxl
+*.rbxlx
+.rbxm
+.rbxmx
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+output/
+.build/
+*.lock
+
+# Dependencies
+Packages/
+node_modules/
